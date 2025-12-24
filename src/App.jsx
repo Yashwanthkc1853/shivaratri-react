@@ -10,7 +10,7 @@ export default function App() {
           <h2>Happy Maha Shivaratri</h2>
 
           <img
-            src="/images/om1.jpg"
+            src={`${import.meta.env.BASE_URL}images/om1.jpg`}
             alt="Shiva"
             className="circle-img"
             onClick={() => setPage("card")}
