@@ -16,7 +16,6 @@ body {
   align-items: center;
 }
 
-/* -------- FIRST PAGE -------- */
 .home {
   text-align: center;
 }
@@ -32,15 +31,13 @@ body {
 .circle-img:hover {
   box-shadow: 0 0 25px 8px cyan;
 }
-
-/* -------- SECOND PAGE -------- */
 .card {
   width: 350px;
   height: 500px;
   border-radius: 14px;
   position: relative;
-  background-image: url("/images/shivaratri.jpg"); /* ✅ from public */
-  background-size: cover;      /* covers whole card */
+  background-image: url("/images/shivaratri.jpg"); 
+  background-size: cover; 
   background-position: center;
   transition: 0.4s;
   overflow: hidden;
